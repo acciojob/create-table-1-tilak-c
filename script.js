@@ -6,7 +6,7 @@ function insert_Row() {
 	let cell2=row.insertCell(1);
 	cell1.innerHTML="New Cell1";
 	cell2.innerHTML="New Cell2";
-	tableBody.insertBefore(row,tableBody.firstElementChild);
+	// tableBody.insertBefore(row,tableBody.firstElementChild);
 	// tableBody.appendChild(row);
   
 }
