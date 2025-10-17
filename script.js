@@ -8,7 +8,7 @@ function insert_Row() {
 	<td>New Cell1</td>
 	<td>New Cell2</td>
 	`
-	tableBody.insertBefore(row,tableBody.firstElementChild);
-
+	// tableBody.insertBefore(row,tableBody.firstElementChild);
+	tableBody.appendChild(row);
   
 }
